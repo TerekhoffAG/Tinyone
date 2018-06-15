@@ -32,10 +32,11 @@ ul {
   overflow: hidden;
 }
 
+/*--header--*/
+
 .main-nav {
   font-size: 22px;
   font-weight: 700;
-  
   background-color: #fcdb00;
 }
 
@@ -50,6 +51,8 @@ ul {
 .site-navigation a {
   color: #010101;
 }
+
+/*--slider--*/
 
 .slider {
   background-color: #fcdb00;
@@ -70,4 +73,67 @@ ul {
   line-height: 24px;
   font-weight: 400;
   color: #313841;
+}
+
+.slider-item p {
+  color: #545454;
+}
+
+.link-store {
+  list-style: none;
+}
+
+.slader-toggles {
+  list-style: none;
+}
+
+/*--features--*/
+
+.features h2 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.features > p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #313841;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item h3 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.features-item p {
+  color: #898989;
+}
+
+/*--subscription--*/
+
+.subscription {
+  background-color: #010101;
+}
+
+.subscription h2 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #fcdb00;
+}
+
+.subscription p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #898989;
 }
