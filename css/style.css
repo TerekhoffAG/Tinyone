@@ -15,11 +15,19 @@ a {
   text-decoration: none;
 }
 
-/*
-ul {
-  list-style: none;
+.button {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  
+  text-align: center;
+  color: #010101;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fcdb00;
+  border: none;
 }
-*/
 
 .visually-hidden {
   position: absolute;
@@ -136,4 +144,35 @@ ul {
   line-height: 24px;
   text-align: center;
   color: #898989;
+}
+
+
+.subscription-form input {
+  font: inherit;
+  color: #898989;
+  border: none;
+}
+
+.link-social {
+  list-style: none;
+}
+
+/*--footer--*/
+
+.main-footer {
+  color: #ffffff;
+  
+  background-color: #010101;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list a {
+  color: #ffffff;
 }
