@@ -16,6 +16,9 @@ a {
 }
 
 .button {
+  width: 126px;
+  height: 50px;
+  
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -24,9 +27,10 @@ a {
   color: #010101;
   vertical-align: middle;
   text-transform: uppercase;
-
-  background-color: #fcdb00;
+  
   border: none;
+  border-radius: 4px;
+  background-color: #fcdb00;
 }
 
 .visually-hidden {
@@ -45,7 +49,7 @@ a {
   padding: 0;
   width: 940px;
   
-  background-color: #fcdb00;
+  background-color: inherit;
 }
 
 /*--header--*/
@@ -92,10 +96,14 @@ a {
   color: #010101;
 }
 
+.site-navigation a:hover {
+  color: #ffffff;
+}
+
 /*--slider--*/
 
 .slider {
- background-color: #fcdb00;
+  background-color: #fcdb00;
 }
 
 .slider-list {
@@ -203,6 +211,7 @@ a {
   border: 1px solid #feed80;
   border-radius: 14px;
   
+  cursor: pointer;
   background-color: #feed80;
 }
 
@@ -234,8 +243,8 @@ a {
   margin: 0 auto;
   margin-bottom: 86px;
   padding: 0;
-  
   width: 740px;
+  
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -338,6 +347,9 @@ a {
 }
 
 .subscription h2 {
+  margin: 0;
+  padding: 92px 0 15px 0;
+  
   font-size: 32px;
   line-height: 32px;
   font-weight: 700;
@@ -346,21 +358,75 @@ a {
 }
 
 .subscription p {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0;
+  width: 740px;
+  
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   color: #898989;
 }
 
+.subscription-form {
+  display: flex;
+  
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 79px;
+}
 
 .subscription-form input {
+  box-sizing: border-box;
+  
+  width: 580px;
+  margin: 0px 21px 0 22px;
+  padding: 14px 23px 16px 23px;
+  
+  border: none;
+  border-radius: 4px;
+  
   font: inherit;
   color: #898989;
-  border: none;
 }
 
 .link-social {
+  display: flex;
+  
+  width: 296px;
+  margin: 0 auto;
+  padding: 0;
+  
   list-style: none;
+}
+
+.link-social li {
+  padding-right: 32px;
+  padding-bottom: 135px;
+}
+
+.link-social a {
+  display: block;
+  
+  width: 36px;
+  height: 36px;
+  
+  background-image: url('../img/facebook.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.link-social li:nth-child(2) a {
+  background-image: url('../img/twitter.png');
+}
+
+.link-social li:nth-child(3) a {
+  background-image: url('../img/google.png');
+}
+
+.link-social li:nth-child(4) a {
+  background-image: url('../img/pinterest.png');
 }
 
 /*--footer--*/
