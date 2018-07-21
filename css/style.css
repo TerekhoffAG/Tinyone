@@ -403,7 +403,7 @@ a {
 
 .link-social li {
   padding-right: 32px;
-  padding-bottom: 135px;
+  padding-bottom: 130px;
 }
 
 .link-social a {
@@ -432,16 +432,39 @@ a {
 /*--footer--*/
 
 .main-footer {
+  margin: 0;
+  padding: 0;
+  
   color: #ffffff;
   
   background-color: #010101;
+}
+
+.main-footer .container{
+  display: flex;
+}
+
+.footer-contacts {
+  margin: 0;
+  padding-left: 12px;
 }
 
 .footer-contacts a {
   color: #ffffff;
 }
 
-.nav-list {
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 532px;
+  padding-left: 115px;
+}
+
+.nav-list {  
+  margin: 0;
+  padding: 0;
+  
   list-style: none;
 }
 
